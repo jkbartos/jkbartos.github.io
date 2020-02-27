@@ -1,0 +1,121 @@
+:root {
+  --beaver-orange: #d73f09;
+  --black: #000000;
+  --white: #ffffff;
+  --reindeer-moss: #c4d6a4;
+  --seafoam: #b8dde1;
+  --candela: #fdd26e;
+  --moondust: #c6dae7;
+  --dark-crater: #1e2019;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--seafoam);
+  font-family: "Arvo";
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: var(--beaver-orange);
+  font-family: "Open Sans";
+}
+
+h2 {
+  font-family: "Open Sans";
+}
+
+.section {
+  padding: 50px 150px;
+  width: 100%
+}
+
+.header {
+  text-align: center;
+  background-color: var(--black);
+  color: var(--seafoam);
+  padding-bottom: 90px;
+}
+
+.main-title {
+  font-size: 6.5rem;
+  font-weight: bold;
+  padding: 50px 0 0 0;
+}
+
+.section-title {
+  color: var(--moondust);
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.upcoming-events {
+  background-color: var(--dark-crater);
+}
+
+.event-card {
+  width: 100%;
+  margin: 30px auto;
+  background-color: var(--black);
+  color: var(--beaver-orange);
+  font-size: 1.5rem;
+  border-radius: 20px;
+}
+
+.event-name {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.event-text {
+  color: var(--moondust);
+  font-size: 1.3rem;
+}
+
+.info-header {
+  color: var(--candela);
+}
+
+.membership {
+  background-color: var(--black);
+  text-align: center;
+}
+
+.section-content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.buttons-container {
+  text-align: center;
+  width: 100%;
+}
+
+.section-button {
+  margin: 20px 30px;
+  text-align: center;
+  color: var(--black);
+  background-color: var(--beaver-orange);
+  border-color: var(--beaver-orange);
+  font-size: 1.3rem;
+}
+
+.section-button:hover {
+  background-color: var(--white);
+  border-color: var(--beaver-orange);
+  color: var(--black);
+}
+
+.contact {
+  background-color: var(--dark-crater);
+}
+
+.footer {
+  background-color: var(--moondust);
+  height: 40px;
+  color: var(--black);
+  text-align: center;
+  font-size: .8rem;
+}
