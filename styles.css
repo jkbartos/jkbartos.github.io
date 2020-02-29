@@ -179,6 +179,10 @@ h2 {
   margin: 0;
 }
 
+.footer .section-content {
+  padding: 0;
+}
+
 #footer-p {
   margin: 0;
 }
